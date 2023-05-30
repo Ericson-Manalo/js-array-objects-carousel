@@ -1,5 +1,3 @@
-
-
 .wrapper-container{
     width: 1000px;
     height: 650px;
@@ -13,21 +11,20 @@ div.wrapper-item{
     display: none;
 }
 
-div.wrapper-item-active{
+div.wrapper-item.active{
     height: 100%;
     width: 100%;
     display: block;
 }
 
 
-
 div.wrapper-container img{
     width: 100%;
     height: 100%;
-    object-fit:cover
+    object-fit: contain;
 }
 
-div.prev-btn,
+div .prev-btn,
 div .next-btn
 {
     width: 60px;
@@ -49,7 +46,7 @@ div .next-btn{
     cursor: cell;
 }
 
-div.prev-btn{
+div .prev-btn{
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
